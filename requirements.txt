@@ -1,0 +1,8 @@
+# CPU-only on purpose. Do not swap in onnxruntime-directml or onnxruntime-gpu:
+# running the model on an integrated GPU froze the whole machine during development.
+onnxruntime>=1.20
+numpy>=2.0
+pillow>=11.0
+pillow-heif>=0.20
+opencv-python-headless>=4.10
+PySide6>=6.8

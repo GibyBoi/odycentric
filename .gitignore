@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+# AI models are downloaded by the app (about 1 GB each)
+models/
+# your score history
+data/
+scratch/
+*.part
